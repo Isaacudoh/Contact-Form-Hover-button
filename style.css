@@ -65,7 +65,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
 }
 
@@ -81,6 +81,26 @@ body{
     position: absolute;
     top: 10px;
     left: 0;
-    transition: .5s;
+    color: #999;
+    transition: .6s;
     pointer-events: none;
 }
+
+.box input:focus ~ label,
+.box textarea:focus ~ label,
+.box input:valid ~ label,
+.box textarea:valid ~ label
+    {
+        top: -12px;
+        left: 0;
+        color: #999;
+        font-size: 12px;
+        font-weight: bold;
+    }
+.box input:focus,
+.box textarea:focus,
+.box input:valid,
+.box textarea:valid
+    {
+        border-bottom: .5px solid grey
+    }   
