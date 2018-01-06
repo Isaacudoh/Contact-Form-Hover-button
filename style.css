@@ -23,7 +23,7 @@ body{
 .box h2{
     margin: 0 0 40px;
     padding: 0;
-    color: green;
+    color: rgb(6, 45, 56);
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
@@ -58,7 +58,7 @@ body{
 .box input[type="summit"]{
     border-bottom: none;
     cursor: pointer;
-    background: green;
+    background: rgb(6, 45, 56);
     color: #fff;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -70,7 +70,7 @@ body{
 }
 
 .box input[type="summit"]:hover{
-    background: orangered;
+    background: rgb(2, 81, 100);
 }
 
 .box form div{
